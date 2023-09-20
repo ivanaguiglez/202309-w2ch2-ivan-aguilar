@@ -112,16 +112,21 @@ section {
 
 .flex-list-box {
   display: flex;
-  flex-direction: row;
-
+  justify-content: space-between;
   list-style: none;
   font-size: 12px;
-  list-style-image: none;
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
-  padding: 5px;
-  object-fit: cover;
   text-align: center;
-  width: 300px;
-  height: 175px;
+  padding: 0 30px 0 30px;
+}
+
+.copyright {
+  position: static;
+  color: saddlebrown;
+  text-align: center;
+  font-size: 12px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  bottom: 150px;
 }
